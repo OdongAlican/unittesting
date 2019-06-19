@@ -6,5 +6,10 @@ namespace MyCalculator
         {
             return number1 - number2;
         }
+
+        public string[] GetUserDetails(string usersdetails)
+        {
+            return usersdetails.Split(',');
+        }
     }
 }
